@@ -4,10 +4,14 @@
   </div>
   <div class="item__complete">
     <div class="complete--check">
-      <button><fa-icon [icon]="faCheck"></fa-icon></button>
+      <button (click)="onToggle(todo)">
+        <fa-icon [ngClass]="setClasses()" [icon]="faCheck"></fa-icon>
+      </button>
     </div>
     <div class="complete--delete">
-      <button><fa-icon [icon]="faTrashAlt"></fa-icon></button>
+      <button (click)="onDelete(todo)">
+        <fa-icon [icon]="faTrashAlt"></fa-icon>
+      </button>
     </div>
   </div>
 </div>
