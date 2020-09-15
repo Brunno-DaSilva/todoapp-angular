@@ -15,17 +15,22 @@
   .todos__header {
     display: flex;
     width: 100%;
-    background-color: #545454;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
     letter-spacing: 5px;
     font-size: 1.3rem;
 
     .header__title {
       width: 70%;
+      padding: 0.5rem;
+      background-color: #545454;
+      border-radius: 0.5rem;
+      margin: 0.2rem;
     }
     .header__action {
       width: 30%;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      margin: 0.2rem;
+      background-color: #545454;
     }
   }
   .todos__items {

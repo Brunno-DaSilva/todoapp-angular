@@ -24,11 +24,17 @@
   }
   .item__complete {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     padding: 0.5rem;
 
     .complete--check {
       padding: 0.5rem;
+      width: 49%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       button {
         &:hover {
@@ -38,7 +44,11 @@
       }
     }
     .complete--delete {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 0.5rem;
+      width: 49%;
 
       button {
         &:hover {
