@@ -1,0 +1,13 @@
+<div class="todos">
+  <div class="todos__header">
+    <div class="header__title">
+      <h3>Title</h3>
+    </div>
+    <div class="header__action">
+      <h3>Action</h3>
+    </div>
+  </div>
+  <div class="todos__items">
+    <app-todo-item *ngFor="let todo of todos" [todo]="todo"> </app-todo-item>
+  </div>
+</div>
