@@ -1,8 +1,23 @@
 # Angular Todo
 
-Simple todo app featuring Angular 10, Firebase, and JSON placeholder API. 
+Simple CRUD todo app featuring Angular 10, Firebase, and JSON placeholder API. 
 
-# Tools:
+###### Demo: https://angular-todo-app-77d09.web.app/
+
+
+### Prototype Concept 
+
+<img src="./angulartodoconcept.png" alt="Site prototype"/>
+
+
+
+### Final Application Look and Feel 
+
+<img src="./angulartodoapp.png" alt="Final Site look and feel"/>
+
+
+
+## Tools:
     Angular 10.1.1
     Angular CLI
     Firebase Hosting 
@@ -10,9 +25,12 @@ Simple todo app featuring Angular 10, Firebase, and JSON placeholder API.
     [JSon todos Place holder](https://jsonplaceholder.typicode.com/todos)
     SASS 
     Angular FontAwesome
+    Google Fonts
+    Icons8
 
 
-#### Demo: https://angular-todo-app-77d09.web.app/
+
+### Demo: https://angular-todo-app-77d09.web.app/
 
 
 
