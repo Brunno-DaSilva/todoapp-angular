@@ -1,6 +1,6 @@
 <div class="todos">
   <div class="todos__add">
-    <app-add-todo></app-add-todo>
+    <app-add-todo (addTodo)="addTodo($event)"></app-add-todo>
   </div>
   <div class="todos__header">
     <div class="header__title">
