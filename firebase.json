@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "firebase": "Angular Todo App",
+    "public": "./public/angular-todo",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "./index.html"
+      }
+    ]
+  }
+}
