@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { TodoService } from '../../services/todo.service';
 
 import { Todo } from 'src/app/models/Todo.models';
@@ -11,6 +11,9 @@ import { faTrashAlt, faCheck } from '@fortawesome/free-solid-svg-icons';
 })
 export class TodoItemComponent implements OnInit {
   @Input() todo: Todo;
+  @Output() deleteTodo: EventEmitter<Todo> = new EventEmitter();
+
+  //font-awesome
   faTrashAlt = faTrashAlt;
   faCheck = faCheck;
 
@@ -28,7 +31,8 @@ export class TodoItemComponent implements OnInit {
     });
   }
   onDelete(todo) {
-    console.log('todo Deleted');
+    // console.log('todo Deleted');
+    this.deleteTodo.emit(todo);
   }
 
   setClasses() {

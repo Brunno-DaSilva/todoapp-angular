@@ -1,0 +1,45 @@
+.add-todo {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+
+  h1 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.form input[type="text"] {
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.9rem;
+  background-color: whitesmoke;
+  color: #545454;
+  border: none;
+}
+
+.form input[type="submit"] {
+  background-color: #ffffff;
+  border: none;
+  color: #545454;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}

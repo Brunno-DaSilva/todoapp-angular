@@ -12,6 +12,16 @@
   align-items: center;
   font-family: "Poiret One", cursive;
 
+  .todos__add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #545454;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
   .todos__header {
     display: flex;
     width: 100%;

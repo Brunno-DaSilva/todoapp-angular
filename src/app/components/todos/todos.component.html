@@ -1,4 +1,7 @@
 <div class="todos">
+  <div class="todos__add">
+    <app-add-todo></app-add-todo>
+  </div>
   <div class="todos__header">
     <div class="header__title">
       <h3>Title</h3>
@@ -8,6 +11,11 @@
     </div>
   </div>
   <div class="todos__items">
-    <app-todo-item *ngFor="let todo of todos" [todo]="todo"> </app-todo-item>
+    <app-todo-item
+      *ngFor="let todo of todos"
+      [todo]="todo"
+      (deleteTodo)="deleteTodo($event)"
+    >
+    </app-todo-item>
   </div>
 </div>
